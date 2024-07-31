@@ -1,0 +1,39 @@
+body,html{
+   max-width: calc(100vw -2px);
+   max-height: calc(100vw -2px);
+   position:relative;
+   overflow-x:hidden;
+   -webkit-font-smoothing: antialiased;
+
+}
+:where(body){
+    background: var(--light-surface);
+    color:var(--dark-surface);
+    height:100vh;
+    width:100vw;
+  &.brand{
+   background: radial-gradient(at center top,var(--brand), var(--light-surface), var(--light-surface)) no-repeat;
+      
+  }  
+    
+& > * .card,.modal-wrap,.navbar,.drawer,.btn,.dropdown{
+    background-color: var(--onlight-surface);
+    color:inherit;
+    
+ } 
+}
+
+:where(body.dark){
+    background-color:var(--dark-surface) !important;
+    color:var(--onlight-surface) !important;
+    &.brand{
+      background: radial-gradient(at center top,var(--brand), var(--dark-surface), var(--dark-surface)) no-repeat !important;
+      
+     }  
+     
+ & > * .card,.modal-wrap,.navbar,.drawer.btn,.dropdown{
+    background-color: var(--ondark-surface) !important;
+    color:var(--light-surface);
+   
+ } 
+}

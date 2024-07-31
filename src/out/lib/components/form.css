@@ -1,0 +1,12 @@
+.form-control {
+    transition: .25s border ease-in-out;
+    border-radius: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent;
+    color: inherit;
+    border: 0;
+    border-bottom: 2px solid var(--brand) !important;
+  
+  }
+  

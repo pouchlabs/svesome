@@ -1,0 +1,38 @@
+@import "./variables/root.css";
+@import "./variables/media.css";
+@import "./variables/borders.css";
+@import "./variables/shadows.css";
+@import "./variables/sizes.css";
+@import "./variables/colors.css";
+@import "./variables/zindex.css";
+@import '../../node_modules/overlayscrollbars/styles/overlayscrollbars.css';
+@import '../../node_modules/swiper/swiper-bundle.css';
+/*settings*/
+@import "./settings/reset.css";
+@import "./settings/shapes.css";
+@import "./settings/theme.css";
+@import "./settings/direction.css";
+@import "./settings/scroll.css";
+@import "./settings/align.css";
+@import "./settings/typography.css";
+@import "./settings/outline.css";
+@import "./settings/bg.css";
+@import "./settings/margins.css";
+@import "./settings/padding.css";
+@import "./settings/borders.css";
+@import "./settings/position.css";
+@import "./settings/width&height.css";
+
+
+
+/*components*/
+@import "./components/buttons.css";
+@import "./components/cards.css";
+@import "./components/slider.css";
+@import "./components/modal.css";
+@import "./components/navbar.css";
+@import "./components/bubble.css";
+@import "./components/form.css";
+@import "./components/drawer.css";
+@import "./components/dropdown.css";
+

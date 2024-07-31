@@ -1,0 +1,48 @@
+.dropdown{
+    position:relative;
+    overflow:hidden;
+}
+
+.dropdown-toggle{
+    cursor:pointer;
+}
+
+
+.dropdown-menu{
+    z-index:300;
+    visibility:hidden;
+    display:none;
+    opacity:0;
+    &.bottom{
+         /* Modify size here: */
+    --size: 500px;
+    --padding: 10px;
+  
+    position: relative;
+    width: calc(var(--size) - var(--padding));
+    height: calc(var(--size) / 2);
+    background: #333;
+    padding: var(--padding);
+    transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+  
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0%;
+        /* left: 50%; */
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #333;
+        height: 16px;
+        width: 16px;
+      
+        
+    }
+ }
+ &.show{
+    visibility:visible;
+    opacity: 1;
+    display:block;
+    transition-delay: 300ms;
+} 
+}
+

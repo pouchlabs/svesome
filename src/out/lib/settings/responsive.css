@@ -1,0 +1,17 @@
+.max-w{
+    max-width:100% !important;
+}
+.max-h{
+    max-height:100% !important;
+}
+.max-full{
+    max-height: calc(100vh - 1px) !important;
+    max-width: calc(100vw - 1px) !important;
+}
+.responsive{
+    & >  img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+}

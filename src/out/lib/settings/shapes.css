@@ -1,0 +1,18 @@
+.square{
+    border-radius:2% !important;
+}
+.circle{
+    border-radius: 50% !important;
+}
+.round{
+    border-radius: 10% !important;
+}
+.round-sm{
+    border-radius:15% !important;
+}
+.round-md{
+    border-radius:20% !important;
+}
+.round-lg{
+    border-radius:25% !important;
+}

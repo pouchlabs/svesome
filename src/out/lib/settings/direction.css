@@ -1,0 +1,60 @@
+.horizontal{
+    display:flex !important;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    & > :where(.btn) {
+        flex-shrink:0;
+        flex-grow:0;
+    }
+    
+}
+.center{
+    justify-content:center;
+    align-items:center;
+}
+.verticle{
+ display:flex !important;
+ flex-direction:column;
+ justify-content:space-between;
+}
+
+.gap-0{
+    gap: 0em !important;
+}
+.gap-1{
+    gap: 0.5em !important;
+}
+.gap-2{
+    gap: 1em !important;
+}
+.gap-3{
+    gap: 1.5em !important;
+}
+.gap-4{
+    gap: 2em !important;
+}
+.gap-5{
+    gap: 2.5em !important;
+}
+.gap-6{
+    gap: 3em!important;
+}
+.gap-7{
+    gap: 3.5em !important;
+}
+.gap-8{
+    gap: 4em !important;
+}
+.gap-9{
+    gap: 4.5em !important;
+}
+.gap-10{
+    gap: 5em !important;
+}
+.gap-11{
+    gap: 5.5em !important;
+}
+.gap-12{
+    gap: 6em !important;
+}

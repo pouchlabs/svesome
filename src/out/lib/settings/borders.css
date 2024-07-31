@@ -1,0 +1,54 @@
+.b-0{
+    border: none !important;
+}
+.b-1{
+    border-width: 0.1em !important;
+}
+.b-2{
+    border-width: 0.2em !important;
+}
+.b-3{
+    border-width: 0.3em !important;
+}
+.b-4{
+    border-width: 0.4em !important;
+}
+.b-5{
+    border-width: 1.5em !important;
+}
+.b-solid{
+    border-style: solid !important; 
+ }
+ .b-dashed{
+    border-style: dashed !important; 
+ }
+.bt-{
+   border-top:0.1em !important; 
+}
+.bb-{
+    border-bottom:0.1em !important; 
+ }
+ .bl{
+     border-left: 0em !important; 
+  }
+.br{
+    border-right: 0em !important; 
+ }
+.b-brand{
+ border-color: var(--brand) !important;
+}
+.b-info{
+    border-color: var(--info) !important;
+}
+.b-secondary{
+    border-color: var(--secondary) !important;
+}
+.b-warning{
+    border-color: var(--warning) !important;
+}
+.b-success{
+    border-color: var(--success) !important;
+}
+.b-error{
+    border-color: var(--error) !important;
+}

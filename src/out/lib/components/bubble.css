@@ -1,0 +1,99 @@
+.bubble-top {
+    /* Modify size here: */
+    --size: 50px;
+  
+    position: relative;
+    width: var(--size);
+    height: calc(var(--size) * 0.66);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  .bubble-top:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: calc(var(--size) * 0.13) solid transparent;
+    border-bottom-color: #333;
+    border-top: 0;
+    margin-left: calc(var(--size) * 0.13 * -1);
+    margin-top: calc(var(--size) * 0.13 * -1);
+  }
+
+  .bubble-bottom {
+    /* Modify size here: */
+    --size: 50px;
+  
+    position: relative;
+    width: var(--size);
+    height: calc(var(--size) * 0.66);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  .bubble-bottom:after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: calc(var(--size) * 0.13) solid transparent;
+    border-top-color: #333;
+    border-bottom: 0;
+    margin-left: calc(var(--size) * 0.13 * -1);
+    margin-bottom: calc(var(--size) * 0.13 * -1);
+  }
+
+  .bubble-left {
+    /* Modify size here: */
+    --size: 50px;
+  
+    position: relative;
+    width: var(--size);
+    height: calc(var(--size) * 0.66);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  .bubble-left:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: calc(var(--size) * 0.13) solid transparent;
+    border-right-color: #333;
+    border-left: 0;
+    margin-top: calc(var(--size) * 0.13 * -1);
+    margin-left: calc(var(--size) * 0.13 * -1);
+  }
+
+  .bubble-right {
+    /* Modify size here: */
+    --size: 50px;
+  
+    position: relative;
+    width: var(--size);
+    height: calc(var(--size) * 0.66);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  .bubble-right:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: calc(var(--size) * 0.13) solid transparent;
+    border-left-color: #333;
+    border-right: 0;
+    margin-top: calc(var(--size) * 0.13 * -1);
+    margin-right: calc(var(--size) * 0.13 * -1);
+  }

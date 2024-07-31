@@ -1,0 +1,15 @@
+.card{
+ min-width:100px;
+ min-height:50px;
+ padding:2px 3px;
+ border-radius: 8px;
+ max-width:95%;
+ max-height:95vh;
+ margin:0 auto;
+ position:relative;
+ transition: all 500ms ease-in;
+ &.animate:hover{
+    cursor:pointer;
+    box-shadow:rgba(0, 0, 0, 0.19) 0px -10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ }
+}

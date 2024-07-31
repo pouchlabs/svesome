@@ -1,0 +1,64 @@
+.no-elevate{
+    box-shadow:none !important;
+  }
+.elevate-xs{
+    box-shadow: var(--elevate-xs) !important;
+  }
+.elevate-sm{
+  box-shadow: var(--elevate-sm) !important;
+}
+.elevate-md{
+    box-shadow: var(--elevate-md) !important;
+  }
+  .elevate-lg{
+    box-shadow: var(--elevate-lg) !important;
+  }
+  .elevate-xl{
+    box-shadow: var(--elevate-xl) !important;
+  }
+
+  .inner-shadow-sm{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset !important;
+  }
+  .inner-shadow-md{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset !important;
+  }
+  .shadow-3d{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+  }
+  .shadow-1{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset !important;
+  }
+  .shadow-2{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px !important;
+  }
+  .shadow-3{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px !important;
+  }
+  .shadow-4{
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px !important;
+  }
+  .shadow-5{
+    box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px !important;
+  }
+  .shadow-bxs{
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset !important;
+  }
+  .shadow-bsm{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px !important;
+  }
+  .shadow-bmd{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px !important;
+  }
+  .shadow-raised-sm{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px !important;
+  }
+  .shadow-raised-md{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px !important;
+  }
+  .shadow-raised-lg{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px !important;
+  }
+  .shadow-raised-xl{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px !important;
+  }

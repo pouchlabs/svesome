@@ -1,0 +1,81 @@
+.text-center{
+    text-align: center !important;
+    vertical-align: middle;
+    }
+    .text-left{
+    text-align: left !important;
+    vertical-align: middle;
+    }
+    
+    .text-right{
+        text-align: right !important;
+        vertical-align: middle;
+    }
+    
+.text-brand{
+    &:not(.brand,.bg-brand){
+     color: var(--brand) !important;
+     font-weight: bold !important;
+    }
+   
+}
+.text-secondary{
+    color: var(--secondary) !important;
+}
+.text-info{
+    &:not(.brand,.bg-info){
+        color: var(--info) !important;
+       }
+  
+}
+.text-warning{
+    &:not(.brand,.bg-warning){
+        color: var(--warning) !important;
+    }
+}
+.text-error{
+    &:not(.brand,.bg-error){
+        color: var(--error) !important;
+       }
+}
+.text-success{
+    &:not(.brand,.bg-success){
+        color: var(--success) !important;
+       }
+}
+.text-1{
+    font-size: 0.8em !important;
+}
+.text-2{
+    font-size: 1em !important;
+}
+.text-3{
+    font-size: 1.5em !important;
+}
+.text-4{
+    font-size: 2em !important;
+}
+.text-5{
+    font-size: 2.5em !important;
+}
+.text-6{
+    font-size: 3em !important;
+}
+.text-7{
+    font-size: 3.5em !important;
+}
+.text-8{
+    font-size: 4em !important;
+}
+.text-9{
+    font-size: 4.5em !important;
+}
+.text-10{
+    font-size: 5em !important;
+}
+.text-11{
+    font-size: 5.5em !important;
+}
+.text-12{
+    font-size: 6em !important;
+}

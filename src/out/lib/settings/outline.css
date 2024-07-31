@@ -1,0 +1,28 @@
+
+.outline:not(.brand,.btn-secondary,.btn-info,.btn-warning,.btn-success,.btn-error){
+    border: 1px solid  var(--brand) !important;
+    color: var(--brand) !important;
+    background-color: 0 !important; 
+  }
+.outline-warning:not(.brand,.btn-warning,.btn-secondary,.btn-info,.btn-success,.btn-error){
+    border: 1px solid  var(--warning) !important;
+    color:var(--warning) !important;
+    background-color: 0 !important; 
+  }
+  
+.outline-error:not(.brand,.btn-secondary,.btn-info,.btn-warning,.btn-success){
+    border: 1px solid  var(--error) !important;
+    background-color: 0 !important; 
+}
+.outline-success:not(.brand,.btn-secondary,.btn-info,.btn-warning,.btn-error){
+    border: 1px solid  var(--success) !important;
+    background-color: 0 !important; 
+  }
+.outline-info:not(.brand,.btn-secondary,.btn-warning,.btn-success,.btn-error){
+    border: 1px solid  var(--info) !important;
+    background-color: 0 !important; 
+  }
+  .outline-secondary:not(.brand,.btn-info,.btn-warning,.btn-success,.btn-error){
+    border: 1px solid  var(--secondary) !important;
+    background-color: 0 !important; 
+  }

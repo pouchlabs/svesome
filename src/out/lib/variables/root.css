@@ -1,0 +1,40 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+ul,
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+    --brand: #5DE062;
+    --onbrand: #5DE062;
+    --secondary: #09D68C;
+    --onsecondary:hsla(158, 92%, 44%, 0.75);
+    --light-surface: rgb(212, 212, 210);
+    --onlight-surface: #F8FAFC;
+    /* --dark-surface: #0F1A1C; */
+    --dark-surface: #23272E;
+    --ondark-surface:  #1E2227;
+    --warning: #FFC107;
+    --error: #FE0000;
+    --success:#198754;
+    --info: #0DCAF0;
+    --font-size:16px;
+    --elevate-xs: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    --elevate-sm: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    --elevate-md: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    --elevate-lg: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    --elevate-xl: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* font-family: "Lato", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
+}
+

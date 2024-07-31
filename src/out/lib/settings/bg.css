@@ -1,0 +1,24 @@
+.bg-brand{
+  background-color:var(--brand) !important;
+}
+.bg-secondary{
+    background-color:var(--secondary) !important;
+   
+   }
+   .bg-info{
+       background-color: var(--info) !important;
+      
+   }
+   .bg-success{
+       background-color:var(--success) !important;
+      
+   }
+   .bg-warning{
+       background-color:var(--warning) !important;
+   }
+   
+   .bg-error{
+       background-color:var(--error);
+   }
+   
+   
